@@ -35,3 +35,6 @@ alias calc="="
 export EDITOR='/opt/homebrew/bin/nvim'
 
 alias ls='gls --hyperlink=auto'
+
+# zoxide
+eval "$(zoxide init --cmd cd zsh)"
