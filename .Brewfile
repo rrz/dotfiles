@@ -5,4 +5,8 @@ brew 'telnet'
 brew 'nvim'
 brew 'mtr'
 brew 'tree'
-brew 'kitty'
+brew 'gpg'
+
+# Cask apps
+cask 'hiddenbar'
+cask 'kitty'

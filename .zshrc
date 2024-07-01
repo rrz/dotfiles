@@ -38,3 +38,5 @@ alias ls='gls --hyperlink=auto'
 
 # zoxide
 eval "$(zoxide init --cmd cd zsh)"
+
+export LANG=ru_RU.UTF-8
