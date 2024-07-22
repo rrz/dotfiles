@@ -1,6 +1,9 @@
 alias ls='ls --color'
 alias ak='ssh-add -s /usr/local/lib/libykcs11.dylib'
 alias v='nvim'
+alias pbp='pbpaste'
+alias k='kubectl'
+
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
 autoload -U promptinit; promptinit
 prompt pure
@@ -39,4 +42,4 @@ alias ls='gls --hyperlink=auto'
 # zoxide
 eval "$(zoxide init --cmd cd zsh)"
 
-export LANG=ru_RU.UTF-8
+export LANG=en_US.UTF-8
