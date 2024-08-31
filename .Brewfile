@@ -10,6 +10,9 @@ brew 'tree'
 brew 'gpg'
 brew 'jq'
 brew 'eza'
+brew 'nvim'
+brew 'lazygit'
+brew 'yq'
 
 # Cask apps
 cask 'hiddenbar'
