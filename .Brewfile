@@ -6,6 +6,8 @@ brew 'nvim'
 brew 'mtr'
 brew 'tree'
 brew 'gpg'
+brew 'jq'
+brew 'eza'
 
 # Cask apps
 cask 'hiddenbar'
