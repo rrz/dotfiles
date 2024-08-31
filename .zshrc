@@ -26,7 +26,6 @@ ssh() {
      fi
  }
 
-source ~/.iterm2_shell_integration.zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # calculator

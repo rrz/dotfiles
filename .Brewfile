@@ -1,4 +1,6 @@
 #brew install
+brew 'zsh-autosuggestions'
+brew 'pure'
 brew 'zoxide'
 brew 'fzf'
 brew 'telnet'
