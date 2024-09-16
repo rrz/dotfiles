@@ -13,6 +13,7 @@ brew 'eza'
 brew 'nvim'
 brew 'lazygit'
 brew 'yq'
+brew 'croc'
 
 # Cask apps
 cask 'hiddenbar'
