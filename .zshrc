@@ -44,3 +44,4 @@ eval "$(zoxide init --cmd cd zsh)"
 export LANG=en_US.UTF-8
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 alias ls='eza'
+export PATH="/Users/ramil.zakirov/Documents/stuff/puppet-editor-services:/opt/homebrew/opt/ruby/bin:$PATH"
