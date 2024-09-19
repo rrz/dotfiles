@@ -14,6 +14,7 @@ brew 'nvim'
 brew 'lazygit'
 brew 'yq'
 brew 'croc'
+brew 'ripgrep'
 
 # Cask apps
 cask 'hiddenbar'
