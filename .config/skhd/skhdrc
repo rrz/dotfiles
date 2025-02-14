@@ -1,0 +1,4 @@
+cmd + k + f : open -a 'Firefox'
+cmd - k + k: open -a 'kitty'
+cmd - k + t : open -a 'VK Teams'
+cmd - k + g : open -a 'Telegram'

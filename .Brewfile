@@ -15,6 +15,8 @@ brew 'lazygit'
 brew 'yq'
 brew 'croc'
 brew 'ripgrep'
+brew 'highlight'
+brew 'aerospace'
 
 # Cask apps
 cask 'hiddenbar'

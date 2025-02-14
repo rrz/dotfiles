@@ -1,9 +1,15 @@
+autoload -Uz compinit
+compinit
+
 alias ls='ls --color'
 alias ak='ssh-add -s /usr/local/lib/libykcs11.dylib'
 alias v='nvim'
 alias pbp='pbpaste'
 alias k='kubectl'
 alias ba='/opt/homebrew/bin/bash'
+alias tp='tsh login --proxy=tele.corp.mail.ru'
+alias td='tsh login --proxy=teledev.corp.mail.ru'
+alias cat="highlight -O ansi --force"
 
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
 autoload -U promptinit; promptinit
@@ -44,4 +50,12 @@ eval "$(zoxide init --cmd cd zsh)"
 export LANG=en_US.UTF-8
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 alias ls='eza'
-export PATH="/Users/ramil.zakirov/Documents/stuff/puppet-editor-services:/opt/homebrew/opt/ruby/bin:$PATH"
+export PATH="${GOPATH}:/Users/ramil.zakirov/Documents/stuff/puppet-editor-services:/opt/homebrew/opt/ruby/bin:/Users/ramil.zakirov/Library/Python/3.13/bin:/Users/ramil.zakirov/.pyenv/versions/3.11.8/envs/python3.11/bin:$PATH"
+source <(kubectl completion zsh)
+
+export PYENV_ROOT="$HOME/.pyenv"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+alias python3.11="/Users/ramil.zakirov/.pyenv/versions/3.11.8/bin/python3.11"
