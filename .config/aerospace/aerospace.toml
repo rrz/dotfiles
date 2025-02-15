@@ -185,7 +185,7 @@ run = ['layout tiling', 'move-node-to-workspace T']
 if.app-id = 'org.mozilla.firefox '
 if.during-aerospace-startup = true
 check-further-callbacks = true
-run = ['layout tiling', 'move-node-to-workspace F']
+run = ['layout tiling', 'move-node-to-workspace B']
 
 [[on-window-detected]]
 if.app-id = 'ru.mail.messenger-biz-avocado-desktop'

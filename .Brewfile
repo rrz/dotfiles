@@ -16,8 +16,8 @@ brew 'yq'
 brew 'croc'
 brew 'ripgrep'
 brew 'highlight'
-brew 'aerospace'
 
 # Cask apps
 cask 'hiddenbar'
 cask 'kitty'
+cask 'nikitabobko/tap/aerospace'
