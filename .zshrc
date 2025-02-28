@@ -53,9 +53,5 @@ alias ls='eza'
 export PATH="${GOPATH}:/Users/ramil.zakirov/Documents/stuff/puppet-editor-services:/opt/homebrew/opt/ruby/bin:/Users/ramil.zakirov/Library/Python/3.13/bin:/Users/ramil.zakirov/.pyenv/versions/3.11.8/envs/python3.11/bin:$PATH"
 source <(kubectl completion zsh)
 
-export PYENV_ROOT="$HOME/.pyenv"
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
 
 alias python3.11="/Users/ramil.zakirov/.pyenv/versions/3.11.8/bin/python3.11"

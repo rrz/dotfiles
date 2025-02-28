@@ -22,7 +22,7 @@ defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
 
 # Set the icon size of Dock items to 36 pixels
-defaults write com.apple.dock tilesize -int 36
+defaults write com.apple.dock tilesize -int 50
 
 # Change minimize/maximize window effect
 defaults write com.apple.dock mineffect -string "scale"
@@ -55,6 +55,10 @@ defaults write com.apple.dock showhidden -bool true
 # Don’t show recent applications in Dock
 defaults write com.apple.dock show-recents -bool false
 
-kill all dock &>/dev/null
+#autostarts
+defaults write loginwindow AutoLaunchedApplicationDictionary -array-add '{ "Path" = "/Applications/Hidden Bar.app"; "Hide" = 1; }'
+defaults write loginwindow AutoLaunchedApplicationDictionary -array-add '{ "Path" = "/Applications/AeroSpace.app"; "Hide" = 1; }'
+defaults write loginwindow AutoLaunchedApplicationDictionary -array-add '{ "Path" = "/Applications/Maccy.app"; "Hide" = 1; }'
+defaults write loginwindow AutoLaunchedApplicationDictionary -array-add '{ "Path" = "/Applications/Google Drive.app"; "Hide" = 1; }'
 
-echo 'Done!'
+echo 'Done! Please reboot'
