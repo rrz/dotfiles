@@ -24,6 +24,8 @@ brew 'fd'
 brew 'mplayer'
 brew 'kubectl'
 brew 'yazi'
+brew 'ast-grep'
+brew 'wget'
 
 # Cask apps
 cask 'hiddenbar'
