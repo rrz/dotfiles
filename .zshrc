@@ -64,3 +64,5 @@ source <(kubectl completion zsh)
 
 
 alias python3.11="/Users/ramil.zakirov/.pyenv/versions/3.11.8/bin/python3.11"
+eval "$(rbenv init -)"
+
