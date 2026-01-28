@@ -4,7 +4,7 @@
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
 vim.api.nvim_create_autocmd("FileType", {
-  pattern = { "yaml", "gotmpl", "yml" },
+  pattern = { "yaml", "gotmpl", "yml", "puppet" },
   callback = function()
     vim.bo.expandtab = true
     vim.bo.shiftwidth = 2
@@ -18,4 +18,15 @@ vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
   callback = function()
     vim.bo.filetype = "helm"
   end,
+})
+
+vim.filetype.add({
+  extension = {
+    gotmpl = "gotmpl",
+  },
+  pattern = {
+    [".*/templates/.*%.tpl"] = "helm",
+    [".*/templates/.*%.ya?ml"] = "helm",
+    ["helmfile.*%.ya?ml"] = "helm",
+  },
 })

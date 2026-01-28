@@ -66,3 +66,6 @@ source <(kubectl completion zsh)
 alias python3.11="/Users/ramil.zakirov/.pyenv/versions/3.11.8/bin/python3.11"
 eval "$(rbenv init -)"
 
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+#add puppet-lint and other gems
+export PATH="$(gem env gemdir)/bin:$PATH"
